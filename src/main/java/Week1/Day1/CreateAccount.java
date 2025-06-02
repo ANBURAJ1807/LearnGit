@@ -34,7 +34,7 @@ public class CreateAccount {
 
         System.out.println("Verified the account creation : "+toastMessage);
         Assert.assertTrue(toastMessage.contains(accountName),"Verify the Account name");
-        driver.close();
+        //driver.close();
 
     //    System.out.println("Verified the account creation : "+toastMessage );
       //check merge
